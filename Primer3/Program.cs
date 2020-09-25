@@ -16,7 +16,8 @@ namespace Primer3
                 double a = double.Parse(Console.ReadLine());
                 Console.WriteLine("Введите второе число:");
                 double b = double.Parse(Console.ReadLine());
-                
+                double sa = (a * a * a + b * b * b) / 2;
+                double sg = Math.Sqrt((Math.Abs(a)+Math.Abs(b))/2);
                 //Console.WriteLine("" + a + "+" + b + "=" + s);
                 //Console.WriteLine($"{a}+{b}={s}");
                 //Console.WriteLine("{0}+{1}={2}",a,b,s);
