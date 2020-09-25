@@ -18,6 +18,8 @@ namespace Primer3
                 double b = double.Parse(Console.ReadLine());
                 double sa = (a * a * a + b * b * b) / 2;
                 double sg = Math.Sqrt((Math.Abs(a)+Math.Abs(b))/2);
+                Console.WriteLine("Среднее арифметическое:{0:F2}",sa);
+                Console.WriteLine("Среднее геометрическое:{0:F2}", sg);
                 //Console.WriteLine("" + a + "+" + b + "=" + s);
                 //Console.WriteLine($"{a}+{b}={s}");
                 //Console.WriteLine("{0}+{1}={2}",a,b,s);
